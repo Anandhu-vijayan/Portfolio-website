@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="a.css.css">
+  <title>My Website</title>
+
+  <style>
+    /* REMOVE THIS, USE YOUR OWN  */
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #212121;
+}
+.dummy_page {
+  height: 500px;
+  width: 100%;
+  background-color: #212121;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+.ft {
+  color:white;
+  font-family:"poppins";
+  font-size:20px;
+
+}
+.ft1 {
+  color:white;
+  font-family:"playfair Display";
+  font-size:35px;
+
+}
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color:#212121;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: right;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color:white;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: white;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.bn1 {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.bn1:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+[data-ca3_icon]::before {
+    font-weight: normal;
+    content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+  cursor:pointer;
+	height: 60px;
+	width: 80px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="about.html" data-after="about">About</a></li>
+            <li><a href="about.html" data-after="About">Experiments</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hi I'm Arjun Krishnakumar <span></span></h1>
+        <h2>jr.UI UX Designer<span></span></h2>
+        <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon="" href="#about" data-after="about"></a>
+    </div>
+    </div>
+  </section>
+   <section id="about">
+    <div class="about container">
+      <div class="col-right">
+        <div class="about-img">
+          <img src="Bikesales.png" alt="img">
+        </div>
+      </div>
+      <div class=" col-right">
+        <h2>Choice Bikes</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quisque tempor lorem ac vulputate vilputate.Suspendisse id lacinia neque.</p>
+       <a href=""><h2>Read more-></h2></a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+      <h2 class="cl1">Front End Developer</h2>
+        <p class="cl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quisque tempor lorem ac vulputate vilputate.Suspendisse id lacinia neque.</p>
+<br>
+<br>
+<br>
+          <a href="" class="h21">Read more-></a>
+      </div>
+     
+      <div class=" col-right">
+        
+      <div class="about-img">
+          <img src="Castapp.png" alt="img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="dummy_page">
+ <h2 class="ft"> Are you intrested in my works?</h2>
+ <h1 class="ft1">Get in touch lets make it </h1><br><br>
+ <a href="/" class="bn1">Email</a>
+
+</div>
+<!-- FOOTER START -->
+<div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Social</h1>
+    <ul>
+      <li>Linkedin</li>
+      <li>Twitter</li>
+      <li>Behance</li>
+      <li>Dribble</li>
+    
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Contact</h1>
+    <ul>
+      <li>Email</li>
+      <li>Buy me a coffee</li>
+     
+    </ul>
+  </div>
+<div class="clearfix"></div>
+</div>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
